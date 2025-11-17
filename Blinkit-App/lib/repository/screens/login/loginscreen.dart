@@ -39,15 +39,15 @@ class LoginScreen extends StatelessWidget {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 20,
+                    height: 25,
                   ),
                   UiHelper.CustomText(
                       text: "Sujal",
                       color: Color(0XFF000000),
                       fontweight: FontWeight.w500,
-                      fontsize: 14),
+                      fontsize: 15),
                   SizedBox(
-                    height: 5,
+                    height: 8,
                   ),
                   UiHelper.CustomText(
                       text: "78277XXXX",
