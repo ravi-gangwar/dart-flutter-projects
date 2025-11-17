@@ -90,12 +90,12 @@ class HomeScreen extends StatelessWidget {
               right: 20,
               bottom: 100,
               child: CircleAvatar(
-                radius: 15,
+                radius: 16,
                 backgroundColor: Colors.black,
                 child: Icon(
                   Icons.person,
                   color: Colors.white,
-                  size: 20,
+                  size: 21,
                 ),
               ),
             ),
@@ -172,7 +172,7 @@ class HomeScreen extends StatelessWidget {
         Expanded(
           flex: 2,
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(10.0),
             child: ListView.builder(
               itemBuilder: (context, index) {
                 return Column(
