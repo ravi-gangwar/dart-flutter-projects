@@ -134,7 +134,7 @@ class HomeScreen extends StatelessWidget {
               ),
               Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(12.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -198,7 +198,7 @@ class HomeScreen extends StatelessWidget {
                           fontweight: FontWeight.bold,
                           fontsize: 8),
                     ),
-                    SizedBox(height: 5,),
+                    SizedBox(height: 6,),
                     Padding(
                       padding: const EdgeInsets.only(right: 40),
                       child: Row(children: [
@@ -206,7 +206,7 @@ class HomeScreen extends StatelessWidget {
                         UiHelper.CustomText(text: "16 MINS", color: Color(0XFF9C9C9C), fontweight: FontWeight.normal, fontsize: 10)
                       ],),
                     ),
-                    SizedBox(height: 5,),
+                    SizedBox(height: 6,),
                     Padding(
                       padding: const EdgeInsets.only(right: 60),
                       child: Row(children: [
