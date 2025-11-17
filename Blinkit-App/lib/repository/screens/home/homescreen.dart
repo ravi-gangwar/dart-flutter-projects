@@ -248,7 +248,7 @@ class HomeScreen extends StatelessWidget {
                 return Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(4.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: Container(
                         height: 78,
                         width: 71,
