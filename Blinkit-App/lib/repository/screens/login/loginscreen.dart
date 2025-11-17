@@ -27,7 +27,7 @@ class LoginScreen extends StatelessWidget {
             height: 20,
           ),
           Card(
-            elevation: 4,
+            elevation: 5,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             child: Container(
