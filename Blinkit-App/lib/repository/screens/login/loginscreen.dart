@@ -29,12 +29,12 @@ class LoginScreen extends StatelessWidget {
           Card(
             elevation: 4,
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             child: Container(
               height: 200,
               width: 350,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(12),
                   color: Color(0XFFFFFFFF)),
               child: Column(
                 children: [
@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0XFFE23744),
                             shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10))),
+                                borderRadius: BorderRadius.circular(12))),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
